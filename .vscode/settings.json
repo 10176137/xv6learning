@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.page-template": "vue",
+        "*.layout-template": "vue",
+        "*.vue": "vue",
+        "stat.h": "c",
+        "types.h": "c",
+        "user.h": "c"
+    }
+}

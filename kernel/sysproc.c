@@ -95,6 +95,8 @@ sys_uptime(void)
 uint64 
 sys_trace(void)
 {
-  printf("sys_trace: Hi");
+  int n;
+  argint(0,&n);
+  myproc()->mask = n;
   return 0;
 }
